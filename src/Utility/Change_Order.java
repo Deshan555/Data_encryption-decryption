@@ -1,8 +1,10 @@
+package Utility;
+
 import java.util.ArrayList;
 
 public class Change_Order
 {
-    public static void change_order(String ascii)
+    public static StringBuilder change_order(String ascii)
     {
         StringBuilder ascii_input = new StringBuilder();
 
@@ -11,5 +13,7 @@ public class Change_Order
         ascii_input.reverse();
 
         System.out.println(ascii_input);
+
+        return ascii_input;
     }
 }
